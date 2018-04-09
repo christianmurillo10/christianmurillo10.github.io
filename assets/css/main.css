@@ -2383,6 +2383,7 @@ body {
     padding-top: 3.25rem; }
 body:before {
     content: ' ';
+    /*background-image: url(../../images/bg.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2867,7 +2868,7 @@ body.is-menu-visible #menu {
 .img-content {
     border-radius: 7px;
     background-color: #f2f2f2;
-    padding: 15px;
+    /*padding: 15px;*/
     text-align: center;
 }
 
