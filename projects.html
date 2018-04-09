@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="assets/css/main.css" />
     </head>
     <body class="is-preload">
-
         <!-- Header -->
         <header id="header">
             <a class="logo" href="index.html">Christian Murillo</a>
@@ -35,149 +34,117 @@
         <!-- Main -->
         <section id="main" class="wrapper">
             <div class="inner">
-                <div class="content">
+                <div class="">
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                        <button class="btn" onclick="filterSelection('company')"> Company</button>
+                        <button class="btn" onclick="filterSelection('freelance')"> Freelance</button>
+                    </div>
 
                     <!-- Elements -->
                     <div class="row">
-                        <div class="col-6 col-12-medium">
-
-                            <!-- Text -->
-                            <h3>Text</h3>
-                            <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this
-                                is <em>emphasized</em>.
-                                This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-                                This is <u>underlined</u>, this is <code>code</code>, and this is a <a href="#">link</a>.</p>
-                            <h2>Heading Level 2</h2>
-                            <h3>Heading Level 3</h3>
-                            <h4>Heading Level 4</h4>
-                            <h5>Heading Level 5</h5>
-                            <h6>Heading Level 6</h6>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem
-                                non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed
-                                ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing.</p>
-
-                            <!-- Lists -->
-                            <h3>Lists</h3>
+                        <div class="col-12">
+                            <!-- Portfolio Gallery Grid -->
                             <div class="row">
-                                <div class="col-6 col-12-small">
-                                    <h4>Unordered</h4>
-                                    <ul>
-                                        <li>Dolor pulvinar amet etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat viverra.</li>
-                                    </ul>
-                                    <h4>Alternate</h4>
-                                    <ul class="alt">
-                                        <li>Dolor pulvinar amet etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat viverra.</li>
-                                    </ul>
+                                <div class="column company">
+                                    <div class="img-content">
+                                        <img src="images/codes.jpg" alt="GPS Tracker" style="width:100%">
+                                        <h3><b>GPS Tracker</b></h3>
+                                        <p>Lorem ipsum..</p>
+                                    </div>
                                 </div>
-                                <div class="col-6 col-12-small">
-                                    <h4>Ordered</h4>
-                                    <ol>
-                                        <li>Dolor pulvinar sed etiam.</li>
-                                        <li>Etiam vel lorem sed amet.</li>
-                                        <li>Felis enim feugiat viverra.</li>
-                                        <li>Dolor pulvinar magna etiam.</li>
-                                        <li>Etiam vel felis at sed viverra.</li>
-                                        <li>Felis enim feugiat amet dolore.</li>
-                                        <li>Dolor pulvinar lorem etiam.</li>
-                                        <li>Etiam vel felis at lorem amet.</li>
-                                        <li>Felis enim feugiat viverra.</li>
-                                        <li>Dolor pulvinar magna etiam.</li>
-                                        <li>Etiam vel felis sed viverra.</li>
-                                    </ol>
+                                <div class="column company">
+                                    <div class="img-content">
+                                        <img src="images/codes.jpg" alt="SMS Text Blast" style="width:100%">
+                                        <h3><b>SMS Text Blast</b></h3>
+                                        <p>Lorem ipsum..</p>
+                                    </div>
+                                </div>
+                                <div class="column company">
+                                    <div class="img-content">
+                                        <img src="images/codes.jpg" alt="Inventory System" style="width:100%">
+                                        <h3><b>Inventory System</b></h3>
+                                        <p>Lorem ipsum..</p>
+                                    </div>
+                                </div>
+                                <div class="column company">
+                                    <div class="img-content">
+                                        <img src="images/codes.jpg" alt="Billing System" style="width:100%">
+                                        <h3><b>Billing System</b></h3>
+                                        <p>Lorem ipsum..</p>
+                                    </div>
+                                </div>
+                                <div class="column freelance">
+                                    <div class="img-content">
+                                        <img src="images/codes.jpg" alt="KalingApp" style="width:100%">
+                                        <h3><b>KalingApp</b></h3>
+                                        <p>Incident Monitoring using Geo-mapping with collaboration of Web-based and Android Application</p>
+                                    </div>
+                                </div>
+                                <div class="column freelance">
+                                    <div class="img-content">
+                                        <img src="images/codes.jpg" alt="Automated Washing Machine" style="width:100%">
+                                        <h3><b>Automated Washing Machine (Web Application)</b></h3>
+                                        <p>Monitoring of washing machine using web application and Automation of washing machine using RFID.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <h4>Definition</h4>
-                            <dl>
-                                <dt>Alpha</dt>
-                                <dd>
-                                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum.
-                                        Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
-                                        Integer ac pellentesque praesent.</p>
-                                </dd>
-                                <dt>Beta</dt>
-                                <dd>
-                                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum.
-                                        Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
-                                        Integer ac pellentesque praesent.</p>
-                                </dd>
-                                <dt>Gamma</dt>
-                                <dd>
-                                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum.
-                                        Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
-                                        Integer ac pellentesque praesent.</p>
-                                </dd>
-                            </dl>
-
-                            <!-- Icons -->
-                            <h3>Icons</h3>
-                            <ul class="icons">
-                                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-                                <li><a href="#" class="icon fa-apple"><span class="label">Apple</span></a></li>
-                                <li><a href="#" class="icon fa-windows"><span class="label">Windows</span></a></li>
-                                <li><a href="#" class="icon fa-500px"><span class="label">500px</span></a></li>
-                            </ul>
-
-                            <!-- Actions -->
-                            <h3>Actions</h3>
-                            <ul class="actions">
-                                <li><a href="#" class="button primary">Default</a></li>
-                                <li><a href="#" class="button">Default</a></li>
-                            </ul>
-                            <ul class="actions">
-                                <li><a href="#" class="button primary small">Small</a></li>
-                                <li><a href="#" class="button small">Small</a></li>
-                            </ul>
-                            <div class="row">
-                                <div class="col-3 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary">Default</a></li>
-                                        <li><a href="#" class="button">Default</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-3 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary small">Small</a></li>
-                                        <li><a href="#" class="button small">Small</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-3 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary fit">Default</a></li>
-                                        <li><a href="#" class="button fit">Default</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-3 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary small fit">Small</a></li>
-                                        <li><a href="#" class="button small fit">Small</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <!-- Blockquote -->
-                            <h3>Blockquote</h3>
-                            <blockquote>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio
-                                porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.
-                                Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra. Lorem ipsum
-                                dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
-                                iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac sed amet praesent. Nunc
-                                lacinia ante nunc ac gravida.</blockquote>
-
-
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <script>
+            filterSelection("all") // Execute the function and show all columns
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all")
+                    c = "";
+                // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1)
+                        w3AddClass(x[i], "show");
+                }
+            }
+
+            // Show filtered elements
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {
+                        element.className += " " + arr2[i];
+                    }
+                }
+            }
+
+            // Hide elements that are not selected
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
 
         <!-- Footer -->
         <footer id="footer">
@@ -204,6 +171,5 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-
     </body>
 </html>
