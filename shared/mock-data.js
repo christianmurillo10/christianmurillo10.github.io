@@ -496,9 +496,9 @@ export const projects = [
     category: 'company'
   },
   {
-    name: 'EA comtech Inc. (CMS)',
-    description: 'Content management system and website.',
-    src: ['/images/portfolio/freelance/eacomtech.jpeg'],
+    name: 'Safety Crew Software Development Services (SCSDS) ',
+    description: 'Safety Monitoring System.',
+    src: ['/images/portfolio/freelance/scsd/login.png', '/images/portfolio/freelance/scsd/dashboard.png'],
     tech_stacks: [
       'HTML',
       'CSS',
@@ -510,7 +510,7 @@ export const projects = [
       'Yii 1 Framework',
       'MySQL',
     ],
-    category: 'freelance'
+    category: 'company'
   },
   {
     name: 'Patient Monitoring',
@@ -530,6 +530,23 @@ export const projects = [
       'Typescript',
       'Express JS',
       'PostgreSQL',
+    ],
+    category: 'freelance'
+  },
+  {
+    name: 'EA comtech Inc. (CMS)',
+    description: 'Content management system and website.',
+    src: ['/images/portfolio/freelance/eacomtech.jpeg'],
+    tech_stacks: [
+      'HTML',
+      'CSS',
+      'jQuery',
+      'AJAX',
+      'Javascript',
+      'Bootsrap',
+      'PHP',
+      'Yii 1 Framework',
+      'MySQL',
     ],
     category: 'freelance'
   },
