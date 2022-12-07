@@ -497,7 +497,7 @@ export const projects = [
   },
   {
     name: 'Safety Crew Software Development Services (SCSDS) ',
-    description: 'Safety Monitoring System.',
+    description: 'Safety Management System.',
     src: ['/images/portfolio/freelance/scsd/login.png', '/images/portfolio/freelance/scsd/dashboard.png'],
     tech_stacks: [
       'HTML',
@@ -510,7 +510,7 @@ export const projects = [
       'Yii 1 Framework',
       'MySQL',
     ],
-    category: 'company'
+    category: 'freelance'
   },
   {
     name: 'Patient Monitoring',
