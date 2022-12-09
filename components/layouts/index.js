@@ -76,6 +76,9 @@ const darkTheme = createTheme({
       xl: 1440,
     },
   },
+  typography: {
+    fontFamily: ['"Viga"', 'Open Sans'].join(',')
+  }
 });
 
 export default function Layouts({ title, children }) {
