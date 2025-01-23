@@ -1,10 +1,10 @@
 export const getAge = (dateString) => {
-    const birthDate = new Date(dateString);
+    const date = new Date(dateString);
     let today = new Date();
-    let age = today.getFullYear() - birthDate.getFullYear();
-    let m = today.getMonth() - birthDate.getMonth();
+    let age = today.getFullYear() - date.getFullYear();
+    let m = today.getMonth() - date.getMonth();
 
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    if (m < 0 || (m === 0 && today.getDate() < date.getDate())) {
         age--;
     }
 

@@ -9,7 +9,7 @@ export const seoMetadata = {
 export const informations = {
   image_path: '/images/christian.jpg',
   name: 'Christian Murillo',
-  job_title: 'Full Stack Developer, Web Developer, NodeJS Developer, PHP Developer',
+  job_title: 'Software Engineer, Full Stack Developer, Web Developer, NodeJS Developer',
   residence: 'Philippines',
   city: 'Manila',
   age: '26'
@@ -95,16 +95,14 @@ export const secondaryProgrammingLanguages = [
   },
   {
     name: 'Typescript',
-    value: 50
+    value: 80
   }
 ];
 
 export const otherKnowledges = [
   'Bootstrap, Material UI, Vuetify',
   'Styled Component, Sass',
-  'AWS (EC2, S3, Route 53, ACM, Elastic Beanstalk)',
-  'Digital Ocean (Droplets)',
-  'Git Knowledge',
+  'AWS (Serverless, Lambda, API Gateway, CloudFormation, SQS, SF, EC2, S3, Route 53, DDB, etc.)',
   'Github, GitLab, Bitbucket, JIRA, Confluence',
   'Trello, Postman, VS Code',
 ];
@@ -152,19 +150,19 @@ export const contactInformationSocial = [
 
 export const highlights = [
   {
-    counter: "6+",
+    counter: `${getAge('2017/01/02')}+`,
     text: "Yrs. Web Developer"
   },
   {
-    counter: "4+",
+    counter: `${getAge('2019/01/02')}+`,
     text: "Yrs. Full Stack Developer"
   },
   {
-    counter: "2",
+    counter: `${getAge('2021/01/02')}+`,
     text: "Yrs. Software Developer"
   },
   {
-    counter: "5+",
+    counter: `${getAge('2018/01/02')}+`,
     text: "Yrs. Database Designing"
   },
 ];
@@ -341,9 +339,20 @@ export const educations = [
 
 export const workHistories = [
   {
+    company: "Prosource Global BPO Inc. (Bevz)",
+    position: "Software Engineer",
+    employment_date: "February 13, 2023 - Present",
+    job_descriptions: [
+      "Developed and integrated third party delivery services API.",
+      "Developed and upgrade features for client's software requirements.",
+      "Maintaining and modified existing backend RESTFUL API/Microservices.",
+      "Collaborated closely with other team member to plan, design, and develop robust solutions.",
+    ]
+  },
+  {
     company: "Mosed Corporation",
     position: "Full Stack Developer",
-    employment_date: "June 1, 2020 - Present",
+    employment_date: "June 1, 2020 - January 10, 2023",
     job_descriptions: [
       "Interim team lead developer.",
       "Developed competition sites.",
