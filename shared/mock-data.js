@@ -352,7 +352,7 @@ export const workHistories = [
   {
     company: "Mosed Corporation",
     position: "Full Stack Developer",
-    employment_date: "June 1, 2020 - January 10, 2023",
+    employment_date: "June 1, 2020 - February 10, 2023",
     job_descriptions: [
       "Interim team lead developer.",
       "Developed competition sites.",
