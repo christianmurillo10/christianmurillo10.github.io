@@ -8,13 +8,13 @@ import { Providers } from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Christian Murillo | Senior Software Engineer",
+  title: "Christian Murillo | Software Engineer",
   description:
     "Results-driven Software Engineer with 9+ years of experience designing, building, and scaling web applications across diverse industries.",
   keywords:
     "christian murillo, senior software engineer, full stack developer, web developer, nodejs developer",
   openGraph: {
-    title: "Christian Murillo | Senior Software Engineer",
+    title: "Christian Murillo | Software Engineer",
     description:
       "Results-driven Software Engineer with 9+ years of experience designing, building, and scaling web applications.",
     url: "https://christianmurillo10.github.io",
@@ -26,7 +26,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Christian Murillo",
-  jobTitle: "Senior Software Engineer",
+  jobTitle: "Software Engineer",
   url: "https://christianmurillo10.github.io",
   sameAs: [
     "https://linkedin.com/in/christianoroceomurillo",

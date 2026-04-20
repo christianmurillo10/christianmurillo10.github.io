@@ -1,30 +1,23 @@
 import type { Skill, TechStack } from "@/entities/profile/model/types";
 
 export const primarySkills: Skill[] = [
-  { name: "Node.js", value: 90 },
-  { name: "Express.js/Nest.js", value: 90 },
-  { name: "React.js/Next.js", value: 85 },
-  { name: "Vue.js/Nuxt.js", value: 60 },
-  { name: "TypeScript/JavaScript", value: 90 },
-  { name: "PostgreSQL/MySQL", value: 85 },
-  { name: "ORM (Prisma/Sequelize/Drizzle)", value: 80 },
-  { name: "AWS Serverless", value: 75 },
-];
-
-export const secondarySkills: Skill[] = [
-  { name: "HTML", value: 90 },
-  { name: "CSS", value: 80 },
-  { name: "JavaScript", value: 90 },
-  { name: "TypeScript", value: 85 },
+  { name: "Node.js" },
+  { name: "TypeScript/JavaScript" },
+  { name: "Express.js/Nest.js" },
+  { name: "React.js/Next.js" },
+  { name: "Vue.js/Nuxt.js" },
+  { name: "PostgreSQL/MySQL/DynamoDB" },
+  { name: "AWS Serverless" },
 ];
 
 export const otherKnowledge: string[] = [
-  "NestJS, Prisma, Sequelize, Drizzle",
-  "Kafka, Redis, DynamoDB",
+  "Prisma, Sequelize, Drizzle",
+  "Kafka, Redis",
   "Docker, AWS (Lambda, API Gateway, CloudFormation, SQS, SF, EC2, S3, Route 53, DDB)",
   "Vitest, Swagger, OpenAPI",
-  "Bootstrap, Material UI, Vuetify, Tailwind CSS",
-  "GitHub, GitLab, Bitbucket, JIRA, Confluence",
+  "Tailwind CSS, Antd, Material UI, Vuetify, Bootstrap",
+  "GitHub, GitLab, Bitbucket",
+  "Clickup, JIRA, Confluence",
   "Trello, Postman, VS Code",
 ];
 

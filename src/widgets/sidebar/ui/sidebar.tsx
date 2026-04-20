@@ -70,9 +70,17 @@ export function Sidebar() {
           <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-(--text-muted)">
             Skills
           </h3>
-          {primarySkills.map((skill) => (
-            <SkillBar key={skill.name} name={skill.name} value={skill.value} />
-          ))}
+          <div className="flex flex-wrap gap-1.5">
+            {primarySkills.map((skill) => (
+              <span
+                key={skill.name}
+                className="inline-flex items-center gap-1.5 rounded-md border border-primary/30 bg-primary/10 px-2.5 py-1 text-[11px] font-medium text-primary transition-colors hover:bg-primary/15"
+              >
+                <span className="h-1.5 w-1.5 rounded-full bg-primary" />
+                {skill.name}
+              </span>
+            ))}
+          </div>
         </div>
 
         <hr className="mb-5 border-(--border)" />
@@ -86,7 +94,7 @@ export function Sidebar() {
             {otherKnowledge.map((item) => (
               <span
                 key={item}
-                className="rounded-md border border-primary/10 bg-primary/5 px-2 py-0.5 text-[10px] text-primary transition-colors hover:bg-primary/10"
+                className="rounded-md border border-(--border) bg-white/5 px-2 py-0.5 text-[10px] text-(--text-muted) transition-colors hover:border-primary/30 hover:text-primary"
               >
                 {item}
               </span>
