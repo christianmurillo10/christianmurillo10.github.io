@@ -25,7 +25,6 @@ export interface Language {
 
 export interface Skill {
   name: string;
-  value: number;
 }
 
 export interface TechStack {
