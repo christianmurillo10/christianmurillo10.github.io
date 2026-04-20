@@ -10,14 +10,14 @@ export const summary =
 
 export const aboutMe: string[] = [
   "Since beginning my journey as a software developer over 9 years ago, I've worked for established companies, taken on freelance projects for startups, and collaborated with talented people to create web applications and websites for both business and consumer use.",
-  "I'm currently a Senior Software Engineer with a strong foundation in backend development and database design. I build scalable RESTful APIs and microservices, create responsive web applications with modern frameworks, and follow clean architecture principles including Feature Sliced Design.",
+  "I'm currently a Software Engineer with a strong foundation in backend development and database design. I build scalable RESTful APIs and microservices, create responsive web applications with modern frameworks, and follow clean architecture principles including Feature Sliced Design.",
   "I also have extensive experience with AWS cloud infrastructure, Docker containerization, and CI/CD pipelines. I'm passionate about writing clean, maintainable code and mentoring junior developers.",
 ];
 
 export const highlights: Highlight[] = [
   { value: 9, suffix: "+", label: "Years of Experience" },
   { value: 13, suffix: "+", label: "Projects Completed" },
-  { value: 4, suffix: "", label: "Companies Worked" },
+  { value: 10, suffix: "+", label: "Companies & Clients" },
   { value: 19, suffix: "+", label: "Technologies" },
 ];
 

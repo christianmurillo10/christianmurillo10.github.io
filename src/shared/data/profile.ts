@@ -8,7 +8,7 @@ import type {
 export const profile: Profile = {
   imagePath: "/images/christian.jpg",
   name: "Christian Murillo",
-  jobTitle: "Senior Software Engineer",
+  jobTitle: "Software Engineer",
   residence: "Philippines",
   city: "Manila",
   birthday: "1996/01/01",

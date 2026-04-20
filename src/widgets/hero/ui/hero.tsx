@@ -4,10 +4,9 @@ import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import { TypingAnimation } from "./typing-animation";
 import { profile } from "@/shared/data/profile";
-import { summary } from "@/shared/data/content";
 
 const roles = [
-  "Senior Software Engineer",
+  "Software Engineer",
   "Full Stack Developer",
   "Backend Developer",
   "NodeJS Developer",
@@ -45,10 +44,6 @@ export function Hero() {
         <div className="mb-6 h-9 text-xl text-(--text-muted) md:text-2xl lg:text-3xl">
           <TypingAnimation words={roles} />
         </div>
-
-        <p className="max-w-2xl text-sm leading-relaxed text-(--text-muted) md:text-base">
-          {summary}
-        </p>
 
         {/* CTA buttons */}
         <motion.div
