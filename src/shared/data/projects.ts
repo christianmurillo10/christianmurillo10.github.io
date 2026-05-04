@@ -11,20 +11,27 @@ export const projects: Project[] = [
   {
     name: "Own. (Social Media App)",
     description: "Administrative web application to configure, monitor, and track user credits.",
-    images: [],
-    techStacks: ["React.js", "Node.js", "TypeScript", "WebSocket"],
+    images: [
+      "/images/portfolio/freelance/own/own-admin-login.png",
+      "/images/portfolio/freelance/own/own-admin-dashboard.png",
+    ],
+    techStacks: ["React.js", "Next.js", "TypeScript", "WebSocket (Ably)"],
     category: "freelance",
     details: [
       "Designed and built an administrative web application to configure, monitor, and track user credits.",
-      "Developed new feature for gifting management.",
+      "Developed new feature for gifting, wallet and livestream management",
       "Integrated third party websocket platform for real-time ranks updates.",
     ],
   },
   {
-    name: "Muse Systems (AI Appointment Setter)",
+    name: "Muse Systems - AI Relationship Engine for Med Spas",
     description: "AI-assisted appointment scheduling platform with Google Calendar integration.",
-    images: [],
-    techStacks: ["React.js", "Node.js", "TypeScript", "Google Calendar API"],
+    images: [
+      "/images/portfolio/freelance/muse/muse-login.png",
+      "/images/portfolio/freelance/muse/muse-admin-dashboard.png",
+      "/images/portfolio/freelance/muse/muse-appointment.png",
+    ],
+    techStacks: ["React.js", "Node.js", "AWS Serverless (Lambda, API Gateway)", "TypeScript", "Google Calendar API"],
     category: "freelance",
     details: [
       "Responsible for end-to-end frontend and backend development.",
