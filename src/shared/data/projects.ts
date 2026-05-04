@@ -15,7 +15,7 @@ export const projects: Project[] = [
       "/images/portfolio/freelance/own/own-admin-login.png",
       "/images/portfolio/freelance/own/own-admin-dashboard.png",
     ],
-    techStacks: ["React.js", "Next.js", "TypeScript", "WebSocket (Ably)"],
+    techStacks: ["React.js", "Nest.js", "TypeScript", "WebSocket (Ably)"],
     category: "freelance",
     details: [
       "Designed and built an administrative web application to configure, monitor, and track user credits.",
