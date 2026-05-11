@@ -9,6 +9,18 @@ export const portfolioTabs: PortfolioTab[] = [
 
 export const projects: Project[] = [
   {
+    name: "Owy",
+    description: "Owy is the wise little tracker for installments, lenders, and group debts — for you and your circle.",
+    images: [
+      "/images/portfolio/personal/owy/login.png",
+      "/images/portfolio/personal/owy/dashboard.png",
+      "/images/portfolio/personal/owy/loan-management.png",
+      "/images/portfolio/personal/owy/loan-details.png",
+    ],
+    techStacks: ["React.js", "Fastify", "TypeScript", "Drizzle ORM", "PostgreSQL"],
+    category: "personal",
+  },
+  {
     name: "Own. (Social Media App)",
     description: "Administrative web application to configure, monitor, and track user credits.",
     images: [
